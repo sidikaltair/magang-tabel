@@ -1,0 +1,212 @@
+ERROR - 2021-08-04 00:00:40 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-04 00:00:40 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:00:52 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-04 00:00:52 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:08:18 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-04 00:08:18 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:09:29 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-04 00:09:29 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:14:28 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-04 00:14:28 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:16:16 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-04 00:16:16 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:17:19 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-04 00:17:19 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:18:27 --> Unknown column 'Nama_pls' in 'field list'
+CRITICAL - 2021-08-04 00:18:27 --> Unknown column 'Nama_pls' in 'field list'
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:18:52 --> Unknown column 'Nama_pls' in 'field list'
+CRITICAL - 2021-08-04 00:18:52 --> Unknown column 'Nama_pls' in 'field list'
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:29:19 --> Column 'jumlah_rim' cannot be null
+CRITICAL - 2021-08-04 00:29:19 --> Column 'jumlah_rim' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:29:28 --> Column 'jumlah_rim' cannot be null
+CRITICAL - 2021-08-04 00:29:28 --> Column 'jumlah_rim' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-04 00:30:00 --> Column 'jumlah_rim' cannot be null
+CRITICAL - 2021-08-04 00:30:00 --> Column 'jumlah_rim' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-04 01:47:50 --> include(./public/tgl_indo.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(./publi...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(11): include()
+#2 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Supplier/Kertas')
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Supplier/Kertas')
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-04 01:48:12 --> include(./public/tgl_indo.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(./publi...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(11): include()
+#2 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Supplier/Kertas')
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Supplier/Kertas')
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-04 01:49:11 --> include(./public/tgl_indo.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(./publi...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(11): include()
+#2 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Supplier/Kertas')
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Supplier/Kertas')
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-04 01:57:29 --> include(./public/tgl_indo.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(./publi...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(11): include()
+#2 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(566): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Supplier/Kertas')
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('Supplier/Kertas')
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}

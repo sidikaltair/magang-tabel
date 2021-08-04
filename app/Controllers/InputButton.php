@@ -26,6 +26,6 @@ class InputButton extends BaseController
         ];
 
 
-        return view('button/create', $data);
+        return view('button/createpls', $data);
     }
 }

@@ -34,11 +34,13 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::Dashboard');
 $routes->get('/Supplier', 'Home::Supplier');
 $routes->get('/Client', 'Home::Client');
-$routes->get('/Tinta', 'Home::Tinta');
+$routes->get('/Tinta',  'Home::Tinta');
 $routes->get('/Plastik', 'Home::Plastik');
 $routes->get('/Lem', 'Home::Lem');
 $routes->get('/Kertas', 'Home::Kertas');
 $routes->get('/Login', 'Home::Dashboard');
+$routes->add('/save(:segment)', 'Supplier:/$1');
+// $routes->get('/Supplier')
 
 /*
  * --------------------------------------------------------------------

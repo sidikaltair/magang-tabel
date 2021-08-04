@@ -14,8 +14,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 mt-4">
-                    <table class="table table-striped ">
-                        <thead>
+                    <table id="table" class="table table-striped table-bordered">
+                        <thead class="thead-dark">
                             <tr>
                                 <th scope="col">No</th>
                                 <th scope="col">id_kertas</th>
@@ -26,11 +26,9 @@
                                 <th scope="col">Jumlah_rim</th>
                                 <th scope="col">ukuran</th>
                                 <th scope="col">gramature</th>
-
                             </tr>
                         </thead>
                         <tbody>
-
                             <?php
                             $i = 1;
                             foreach ($kertas as $k) {
@@ -45,7 +43,6 @@
                                     <td><?= $k['jumlah_rim']; ?></td>
                                     <td><?= $k['ukuran']; ?></td>
                                     <td><?= $k['gramature']; ?></td>
-
                                 </tr>
 
                             <?php

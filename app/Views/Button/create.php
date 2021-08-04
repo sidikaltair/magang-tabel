@@ -6,6 +6,8 @@
 <br><br>
 
 <body>
+
+
     <form action="/Supplier/save" method="POST">
 
         <div class="form-group text-dark">
@@ -16,8 +18,8 @@
                 </div>
 
                 <div class="col-3">
-                    <label for="Nama_kertas">2.Nama_kertas</label>
-                    <input type="text" class="form-control" id="Nama_kertas" name="Nama_kertas" placeholder="Masas">
+                    <label for="Nama_krts">2.Nama_krts</label>
+                    <input type="text" class="form-control" id="Nama_krts" name="Nama_krts" placeholder="Masas">
                 </div>
 
                 <div class="col-2">
@@ -36,8 +38,8 @@
                 </div>
 
                 <div class="col-2">
-                    <label for="Jumlah_rim">6.Jumlah_Rim</label>
-                    <input type="text" class="form-control" id="Jumlah_rim" name="Jumlah_rim" placeholder="M">
+                    <label for="jumlah_rim">6.Jumlah_Rim</label>
+                    <input type="text" class="form-control" id="jumlah_rim" name="jumlah_rim" placeholder="M">
                 </div>
 
                 <div class="col-2">
@@ -45,7 +47,7 @@
                     <input type="text" class="form-control" id="ukuran" name="ukuran" placeholder="Masrtas">
                 </div>
                 <div class="col-2">
-                    <label for="gramature">7.gramature</label>
+                    <label for="gramature">8.gramature</label>
                     <input type="text" class="form-control" id="gramature" name="gramature" placeholder="Masrtas">
                 </div>
 

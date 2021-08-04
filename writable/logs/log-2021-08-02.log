@@ -1,0 +1,121 @@
+CRITICAL - 2021-08-02 04:05:25 --> Undefined property: App\Controllers\Supplier::$data
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-02 21:16:38 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-02 21:17:01 --> Call to a member function save() on null
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-02 23:19:49 --> Call to undefined method App\Models\plastikModel::findaAll
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(50): CodeIgniter\Model->__call('findaAll', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Plastik()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-02 23:20:12 --> Undefined array key "id_Plastik"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\plastik.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Plasti...', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(57): view('subbahan/Plasti...', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Plastik()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-02 23:21:31 --> Undefined array key "id_Plastik"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\plastik.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Plasti...', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(57): view('subbahan/Plasti...', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Plastik()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-02 23:21:55 --> Undefined array key "id_Pls"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\plastik.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 37)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Plasti...', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(57): view('subbahan/Plasti...', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Plastik()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-02 23:22:18 --> Undefined array key "jumlah_rim"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\plastik.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Plasti...', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(57): view('subbahan/Plasti...', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Plastik()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-02 23:53:13 --> Class "App\Controllers\tintaModel" not found
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(900): App\Controllers\Supplier->__construct()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(426): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-02 23:53:35 --> Undefined array key "id_pls"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\tinta.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/tinta', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(70): view('subbahan/tinta', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Tinta()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-02 23:53:53 --> Undefined array key "Jenis_Tinta"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\tinta.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 42)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/tinta', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(70): view('subbahan/tinta', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Tinta()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-02 23:58:48 --> Undefined variable $plastik
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\lem.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Lem', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(80): view('subbahan/Lem', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Lem()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

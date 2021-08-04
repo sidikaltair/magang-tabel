@@ -1,0 +1,1051 @@
+CRITICAL - 2021-08-03 00:57:14 --> Undefined variable $plastik
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\lem.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Lem', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(80): view('subbahan/Lem', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Lem()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-03 01:02:10 --> Undefined variable $plastik
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\lem.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Lem', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(80): view('subbahan/Lem', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Lem()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-03 01:06:15 --> Undefined variable $plastik
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\lem.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Lem', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(84): view('subbahan/Lem', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Lem()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-08-03 01:16:32 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 01:16:32 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 01:20:06 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 01:20:06 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 01:34:18 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 01:34:18 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 01:54:41 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 01:54:41 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-03 02:05:20 --> Undefined variable $k
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\kertas.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Kertas', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(30): view('subbahan/Kertas', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Kertas()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-03 02:42:04 --> Undefined variable $k
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\kertas.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Kertas', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(30): view('subbahan/Kertas', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Kertas()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-08-03 02:44:04 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 02:44:04 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-03 02:49:54 --> Too few arguments to function App\Controllers\Supplier::save(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-08-03 02:50:15 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 02:50:15 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 02:53:34 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 02:53:34 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-03 03:01:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::insert()
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-03 03:03:47 --> You must use the "set" method to update an entry.
+#0 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2262): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert()
+#2 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-08-03 03:04:41 --> Table 'nusita./supplier/kertas' doesn't exist
+CRITICAL - 2021-08-03 03:04:41 --> Table 'nusita./supplier/kertas' doesn't exist
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `/s...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `/s...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `/s...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `/s...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 03:05:19 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 03:05:19 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 03:07:15 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 03:07:15 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\modelKertas.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(45): App\Models\ModelKertas->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-03 03:11:56 --> Undefined property: App\Controllers\Supplier::$db
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-03 03:12:35 --> Object of class App\Models\ModelKertas could not be converted to string
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-03 03:13:12 --> Call to a member function insert() on null
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-03 03:13:37 --> Call to a member function insert() on null
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-03 03:15:42 --> Undefined property: App\Controllers\Supplier::$modelkertas
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-03 03:16:44 --> Undefined property: App\Controllers\Supplier::$Kertas
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-03 03:35:46 --> Undefined property: App\Controllers\Supplier::$Kertas
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-03 03:35:52 --> Undefined property: App\Controllers\Supplier::$Kertas
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-08-03 03:49:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+CRITICAL - 2021-08-03 03:49:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 03:50:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('12321312','2021-08-04','2021-08-01',NULL,'dasdasdasda',NULL,'DJA...' at line 1
+CRITICAL - 2021-08-03 03:50:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('12321312','2021-08-04','2021-08-01',NULL,'dasdasdasda',NULL,'DJA...' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 03:54:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('12321312','2021-08-04','2021-08-01',NULL,'dasdasdasda',NULL,'DJA...' at line 1
+CRITICAL - 2021-08-03 03:54:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('12321312','2021-08-04','2021-08-01',NULL,'dasdasdasda',NULL,'DJA...' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 03:57:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+CRITICAL - 2021-08-03 03:57:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-03 04:09:24 --> Object of class App\Models\kertasModel could not be converted to string
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-08-03 04:11:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+CRITICAL - 2021-08-03 04:11:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 04:13:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+CRITICAL - 2021-08-03 04:13:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 04:14:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+CRITICAL - 2021-08-03 04:14:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 04:14:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+CRITICAL - 2021-08-03 04:14:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('11','2021-08-03','2021-08-01',NULL,'siap',NULL,'xl','jsaon'))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:18:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+CRITICAL - 2021-08-03 21:18:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:39:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+CRITICAL - 2021-08-03 21:39:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:39:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+CRITICAL - 2021-08-03 21:39:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:40:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+CRITICAL - 2021-08-03 21:40:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:40:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+CRITICAL - 2021-08-03 21:40:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:41:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('12321312','2021-08-04','2021-08-04',NULL,'dgdsgsdgs',NULL,'314',...' at line 1
+CRITICAL - 2021-08-03 21:41:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('12321312','2021-08-04','2021-08-04',NULL,'dgdsgsdgs',NULL,'314',...' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:48:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+CRITICAL - 2021-08-03 21:48:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '0) VALUES (('','','',NULL,'',NULL,'',''))' at line 1
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:50:36 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 21:50:36 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:52:26 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 21:52:26 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 21:53:20 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 21:53:20 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:03:53 --> Column 'jumlah_rim' cannot be null
+CRITICAL - 2021-08-03 22:03:53 --> Column 'jumlah_rim' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:07:54 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 22:07:54 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:11:25 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 22:11:25 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:18:22 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 22:18:22 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-03 22:19:47 --> Undefined array key "Nama_krts"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\kertas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Kertas', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(31): view('subbahan/Kertas', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Kertas()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-03 22:19:48 --> Undefined array key "Nama_krts"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\kertas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Kertas', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(31): view('subbahan/Kertas', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Kertas()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-03 22:19:52 --> Undefined array key "Nama_krts"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\kertas.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 43)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Kertas', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(31): view('subbahan/Kertas', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Kertas()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-08-03 22:21:09 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 22:21:09 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:21:24 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 22:21:24 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:25:09 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 22:25:09 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:32:53 --> Column 'jumlah_rim' cannot be null
+CRITICAL - 2021-08-03 22:32:53 --> Column 'jumlah_rim' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:34:55 --> Column 'jumlah_rim' cannot be null
+CRITICAL - 2021-08-03 22:34:55 --> Column 'jumlah_rim' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:38:02 --> Column 'jumlah_rim' cannot be null
+CRITICAL - 2021-08-03 22:38:02 --> Column 'jumlah_rim' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:41:13 --> Column 'jumlah_rim' cannot be null
+CRITICAL - 2021-08-03 22:41:13 --> Column 'jumlah_rim' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:42:21 --> Column 'jumlah_rim' cannot be null
+CRITICAL - 2021-08-03 22:42:21 --> Column 'jumlah_rim' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:45:19 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 22:45:19 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:46:09 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 22:46:09 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 22:52:00 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 22:52:00 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:02:46 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 23:02:46 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:07:05 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 23:07:05 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:07:12 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 23:07:12 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:08:23 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 23:08:23 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:09:23 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 23:09:23 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:09:26 --> Column 'Nama_krts' cannot be null
+CRITICAL - 2021-08-03 23:09:26 --> Column 'Nama_krts' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:11:21 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2021-08-03 23:11:21 --> Duplicate entry '2' for key 'PRIMARY'
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(16): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(48): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-03 23:41:26 --> Call to undefined method CodeIgniter\View\View::extends()
+#0 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include()
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/createpl...', Array, true)
+#3 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(29): view('button/createpl...', Array)
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->createplastik()
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-08-03 23:41:57 --> Column 'Jenis_pls' cannot be null
+CRITICAL - 2021-08-03 23:41:57 --> Column 'Jenis_pls' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:43:19 --> Column 'Jenis_pls' cannot be null
+CRITICAL - 2021-08-03 23:43:19 --> Column 'Jenis_pls' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:43:50 --> Column 'Jenis_pls' cannot be null
+CRITICAL - 2021-08-03 23:43:50 --> Column 'Jenis_pls' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:44:51 --> Column 'Jenis_pls' cannot be null
+CRITICAL - 2021-08-03 23:44:51 --> Column 'Jenis_pls' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:45:22 --> Column 'Jenis_pls' cannot be null
+CRITICAL - 2021-08-03 23:45:22 --> Column 'Jenis_pls' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:45:35 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-03 23:45:35 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:48:37 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-03 23:48:37 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-03 23:50:16 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-03 23:50:16 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-03 23:56:02 --> Invalid file: layout/bahan.php
+#0 C:\xampp\htdocs\magang-tabel\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/bahan.ph...')
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(246): CodeIgniter\View\View->render('layout/bahan', Array, true)
+#2 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/createpl...', Array, true)
+#3 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(29): view('button/createpl...', Array)
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->createplastik()
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-08-03 23:56:18 --> Invalid file: layout/bahan.php
+#0 C:\xampp\htdocs\magang-tabel\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/bahan.ph...')
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(487): CodeIgniter\View\View->render('layout/bahan', NULL, true)
+#2 C:\xampp\htdocs\magang-tabel\app\Views\Button\createpls.php(1): CodeIgniter\View\View->include('layout/bahan')
+#3 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/createpl...', Array, true)
+#6 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(29): view('button/createpl...', Array)
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->createplastik()
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#9 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-08-03 23:57:10 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-03 23:57:10 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(78): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
