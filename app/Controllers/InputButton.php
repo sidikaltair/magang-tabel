@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Models\clientModel;
 use App\Models\kertasModel;
 use App\Models\lemModel;
 use App\Models\plastikModel;
@@ -16,6 +17,18 @@ class InputButton extends BaseController
         $this->productpls = new plastikModel();
         $this->producttinta = new tintaModel();
         $this->productlem = new lemModel();
+        $this->productcli = new clientModel();
+    }
+
+    public function createClient()
+    {
+
+
+        $data = [
+            'title' => 'Client',
+            'jumbo' => 'Client'
+        ];
+        return view('button/createclient', $data);
     }
     public function create()
     {
@@ -60,6 +73,19 @@ class InputButton extends BaseController
             return redirect()->to(base_url('/supplier/tinta'));
         }
     }
+    public function deletecli($id)
+    {
+        $hapus = $this->productcli->deletecli($id);
+
+        // Jika berhasil melakukan hapus
+        if ($hapus) {
+            // Deklarasikan session flashdata dengan tipe warning
+            session()->setFlashdata('delcli', 'Deleted product successfully');
+            // Redirect ke halaman product
+            return redirect()->to(base_url('/home/client'));
+        }
+    }
+
 
     public function createLem()
     {

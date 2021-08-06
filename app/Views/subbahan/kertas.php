@@ -19,7 +19,7 @@
                 <?php endif; ?>
 
                 <?php if (session()->getFlashdata('warning')) : ?>
-                    <div class="alert alert-success" role="alert">
+                    <div class="alert alert-danger" role="alert">
                         <?= session()->getFlashData('warning'); ?>
                     </div>
                 <?php endif; ?>
