@@ -1,0 +1,236 @@
+CRITICAL - 2021-08-05 03:55:51 --> Call to undefined method App\Models\kertasModel::delete_product
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(72): CodeIgniter\Model->__call('delete_product', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->deletekrts('1')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 03:56:02 --> Call to undefined method App\Models\kertasModel::delete_product
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(72): CodeIgniter\Model->__call('delete_product', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->deletekrts('1')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 03:56:27 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('inputbutton/del...')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('inputbutton/del...')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 03:56:39 --> Undefined property: App\Controllers\InputButton::$db
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->deletekrts('1')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 21:26:27 --> Undefined variable $k
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\tinta.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/tinta', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(91): view('subbahan/tinta', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Tinta()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-05 21:27:58 --> Undefined variable $k
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\tinta.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/tinta', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(91): view('subbahan/tinta', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Tinta()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-05 21:51:23 --> Call to undefined method App\Models\plastikModel::delete_product
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(47): CodeIgniter\Model->__call('delete_product', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->deletekrts('23')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 21:54:09 --> Call to undefined method App\Models\plastikModel::delete_product
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(47): CodeIgniter\Model->__call('delete_product', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->deletekrts('23')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 21:54:31 --> Call to undefined method App\Models\plastikModel::delete_product
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(47): CodeIgniter\Model->__call('delete_product', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->deletekrts('23')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 22:00:54 --> Undefined array key "id_tinta"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\plastik.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Plasti...', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(64): view('subbahan/Plasti...', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Plastik()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-05 22:01:00 --> Undefined array key "id_tinta"
+#0 C:\xampp\htdocs\magang-tabel\app\Views\subbahan\plastik.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('subbahan/Plasti...', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(64): view('subbahan/Plasti...', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Plastik()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-05 22:03:09 --> Call to undefined method App\Models\plastikModel::delete_plastik
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(61): CodeIgniter\Model->__call('delete_plastik', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->deletepls('2')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-08-05 22:07:01 --> Column 'Jumlah_rol' cannot be null
+CRITICAL - 2021-08-05 22:07:01 --> Column 'Jumlah_rol' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(80): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-05 22:55:04 --> Call to undefined method App\Models\tintaModel::saveTinta
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(96): CodeIgniter\Model->__call('saveTinta', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savetinta()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 22:57:31 --> Call to undefined method App\Models\tintaModel::saveTinta
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(110): CodeIgniter\Model->__call('saveTinta', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savetinta()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 22:59:14 --> Call to undefined method App\Models\tintaModel::saveTinta
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(110): CodeIgniter\Model->__call('saveTinta', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savetinta()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-05 23:00:11 --> Call to undefined method App\Models\tintaModel::saveTinta
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(110): CodeIgniter\Model->__call('saveTinta', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savetinta()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-08-05 23:07:32 --> Column 'Jenis_tinta' cannot be null
+CRITICAL - 2021-08-05 23:07:32 --> Column 'Jenis_tinta' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ti...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\tintaModel.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(109): App\Models\tintaModel->saveTinta(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savetinta()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-05 23:08:57 --> Column 'Jenis_tinta' cannot be null
+CRITICAL - 2021-08-05 23:08:57 --> Column 'Jenis_tinta' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ti...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\tintaModel.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(109): App\Models\tintaModel->saveTinta(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savetinta()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-05 23:09:45 --> Column 'Jumlah_kaleng' cannot be null
+CRITICAL - 2021-08-05 23:09:45 --> Column 'Jumlah_kaleng' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ti...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\tintaModel.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(109): App\Models\tintaModel->saveTinta(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savetinta()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-05 23:10:18 --> Column 'Jumlah_kaleng' cannot be null
+CRITICAL - 2021-08-05 23:10:18 --> Column 'Jumlah_kaleng' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ti...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ti...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ti...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ti...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\tintaModel.php(27): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(109): App\Models\tintaModel->saveTinta(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savetinta()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-05 23:27:23 --> Call to undefined method App\Models\tintaModel::delete_tinta
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(51): CodeIgniter\Model->__call('delete_tinta', Array)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->deletetinta('0')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-08-05 23:41:51 --> Column 'Nama_pls' cannot be null
+CRITICAL - 2021-08-05 23:41:51 --> Column 'Nama_pls' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `pl...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pl...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pl...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pl...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\plastikModel.php(24): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(80): App\Models\plastikModel->savePlastik(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->savePlastik()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

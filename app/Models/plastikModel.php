@@ -24,4 +24,10 @@ class plastikModel extends Model
         $query = $this->db->table('plastik')->insert($data);
         return $query;
     }
+
+    public function delete_plastik($id)
+    {
+        $query = $this->db->table($this->table)->delete(['id_pls' => $id]);
+        return $query;
+    }
 }

@@ -37,11 +37,12 @@ class Supplier extends BaseController
         $data = ([
             'id_kertas' =>  $this->request->getPost('id_kertas'),
             'tanggal_pemesanan' => $this->request->getPost('tanggal_pemesanan'),
-            'created_at' =>  $this->request->getPost('created_at'),
             'Nama_krts' => $this->request->getPost('Nama_krts'),
             'Jenis_ivo' => $this->request->getPost('Jenis_ivo'),
             'jumlah_rim' => $this->request->getPost('jumlah_rim'),
             'ukuran' => $this->request->getPost('ukuran'),
+            'harga_sebelum' => $this->request->getPost('harga_sebelum'),
+            'harga_sesudah' => $this->request->getPost('harga_sesudah'),
             'gramature' => $this->request->getPost('gramature')
         ]);
 
@@ -72,10 +73,10 @@ class Supplier extends BaseController
             'created_at' =>  $this->request->getVar('created_at'),
             'Nama_pls' => $this->request->getVar('Nama_pls'),
             'Jenis_pls' => $this->request->getVar('Jenis_pls'),
-            'jumlah_rol' => $this->request->getVar('jumlah_rol'),
+            'Jumlah_rol' => $this->request->getVar('Jumlah_rol'),
         ]);
 
-        session()->setFlashdata('pesan', 'Data berhasil ditambahkan.');
+        session()->setFlashdata('saveplastik', 'Data berhasil ditambahkan.');
         $model->savePlastik($data);
         return redirect()->to('/Supplier/Plastik');
     }
@@ -90,6 +91,24 @@ class Supplier extends BaseController
         return view('subbahan/tinta', $data);
     }
 
+    public function savetinta()
+    {
+        $model = new tintaModel();
+        $data = ([
+            'id_tinta' =>  $this->request->getVar('id_tinta'),
+            'tanggal_pemesanan' => $this->request->getVar('tanggal_pemesanan'),
+            'Nama_Spl' => $this->request->getVar('Nama_Spl'),
+            'Jenis_tinta' => $this->request->getVar('Jenis_tinta'),
+            'Turunan_tinta' => $this->request->getVar('Turunan_tinta'),
+            'Jumlah_kaleng' => $this->request->getVar('Jumlah_kaleng'),
+            'harga_sebelum' => $this->request->getVar('harga_sebelum'),
+            'harga_sesudah' => $this->request->getVar('harga_sesudah'),
+        ]);
+
+        session()->setFlashdata('saveTinta', 'Data berhasil ditambahkan.');
+        $model->saveTinta($data);
+        return redirect()->to('/Supplier/Tinta');
+    }
 
     public function Lem()
     {
@@ -100,5 +119,19 @@ class Supplier extends BaseController
             'lem' => $lem
         ];
         return view('subbahan/Lem', $data);
+    }
+    public function savelem()
+    {
+        $model = new lemModel();
+        $data = ([
+            'id_lem' =>  $this->request->getVar('id_lem'),
+            'tanggal_pemesanan' => $this->request->getVar('tanggal_pemesanan'),
+            'Nama_lem' => $this->request->getVar('Nama_lem'),
+            'jumlah_drum' => $this->request->getVar('jumlah_drum'),
+
+        ]);
+        session()->setFlashdata('saveLem', 'Data berhasil ditambahkan.');
+        $model->saveLem($data);
+        return redirect()->to('/Supplier/lem');
     }
 }

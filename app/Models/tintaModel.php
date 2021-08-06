@@ -13,11 +13,23 @@ class tintaModel extends Model
     protected $allowedfield = [
         'id_tinta',
         'tanggal_pemesanan',
-        'created_at',
         'Nama_Spl',
         'Jenis_tinta',
         'Turunan_tinta',
-        'Jumlah_kaleng'
+        'Jumlah_kaleng',
+        'harga_sebelum',
+        'harga_sesudah'
 
     ];
+
+    public function saveTinta($data)
+    {
+        $query = $this->db->table('tinta')->insert($data);
+        return $query;
+    }
+    public function deletetint($id)
+    {
+        $query = $this->db->table($this->table)->delete(['id_tinta' => $id]);
+        return $query;
+    }
 }

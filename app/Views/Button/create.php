@@ -27,10 +27,6 @@
                     <input type="date" class="form-control" id="tanggal_pemesanan" name="tanggal_pemesanan" placeholder="Mass">
                 </div>
 
-                <div class="col-2">
-                    <label for="created_at">4.created_at</label>
-                    <input type="date" class="form-control" id="created_at" name="created_at" placeholder="Masukaas">
-                </div>
 
                 <div class="col-3">
                     <label for="Jenis_ivo">5.Jenis_ivo </label>
@@ -46,10 +42,26 @@
                     <label for="ukuran">7.ukuran</label>
                     <input type="text" class="form-control" id="ukuran" name="ukuran" placeholder="Masrtas">
                 </div>
+
                 <div class="col-2">
-                    <label for="gramature">8.gramature</label>
+                    <label for="harga_sebelum">8.harga_sebelum</label>
+                    <input type="text" class="form-control" id="harga_sebelum" name="harga_sebelum" placeholder="Masrtas">
+                </div>
+
+                <div class="col-2">
+                    <label for="harga_sesudah">9.harga_sesudah</label>
+                    <input type="text" class="form-control" id="harga_sesudah" name="harga_sesudah" placeholder="Masrtas">
+                </div>
+                <div class="col-2">
+                    <label for="gramature">10.gramature</label>
                     <input type="text" class="form-control" id="gramature" name="gramature" placeholder="Masrtas">
                 </div>
+
+            </div>
+
+            <div class="div">
+
+
 
             </div>
             <div class="row mt-3"></div>
