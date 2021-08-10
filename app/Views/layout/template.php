@@ -18,6 +18,7 @@
 
 
 <body>
+
     <div class="jumbotron bg-info text-white" style=" height: 5px;">
         <div class="container-fluid">
             <div class="row">
@@ -40,6 +41,7 @@
                         <span class="navbar-toggler-icon"></span>
 
                     </button>
+
                     <div class="navbar-nav" id="navbarNav">
                         <ul class="navbar-nav ml-auto">
                             <div class="btn-group">
@@ -61,6 +63,9 @@
 
                             <li class="nav-item">
                                 <a class="nav-link" href="<?= base_url('Client') ?>">Client</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="<?= base_url('home/produk') ?>">produk</a>
                             </li>
 
                             <ul class="position-relative">

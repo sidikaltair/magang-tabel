@@ -30,6 +30,7 @@
             <div class="row">
                 <div class="col-lg-12 mt-4">
                     <div class="table-responsive-sm">
+
                         <table id="table" class="table table-striped table-bordered">
                             <thead class="thead-dark">
                                 <tr>
@@ -48,10 +49,12 @@
                                 </tr>
                             </thead>
                             <tbody>
+
                                 <?php
                                 $i = 1;
                                 foreach ($kertas as $k) {
                                 ?>
+
                                     <tr>
                                         <th scope="row"><?= $i++; ?></th>
                                         <td><?= $k['id_kertas']; ?></td>
@@ -64,32 +67,33 @@
                                         <td><?= $k['harga_sesudah']; ?></td>
                                         <td><?= $k['gramature']; ?></td>
                                         <td>
-                                            <div class="div">
-                                                <div class="row-g2">
-                                                    <!-- <a href="/supplier/deleteKertas"> <i class="fas fa-edit"></a> -->
-                                                    <a href="<?php echo base_url('inputbutton/deletekrts/' . $k['id_kertas']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus produk <?php echo $k['Nama_krts']; ?>ini?')"><i class="fas fa-trash-alt"></i></a>
-                                                    <div class="col">
-                                                        <a href="/supplier/editKertas" class="btn btn-danger btn-sm"><i class="fas fa-edit"></i></a>
+                                            <div class="row-g2">
 
+                                                <a href=" <?php echo base_url('inputbutton/deletekrts/' . $k['id_kertas']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus produk <?php echo $k['Nama_krts']; ?>ini?')"><i class="fas fa-trash-alt"></i></a>
 
-
-                                                    </div>
-
-                                                </div>
+                                                <a href=" <?php echo base_url('supplier/pdf/' . $k['id_kertas']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah anda ingin cetak pdf <?php echo $k['Nama_krts']; ?>ini?')"><i class="fas fa-trash-alt"></i></a>
                                             </div>
-                                        </td>
-                                    </tr>
-                    </div>
-                </div>
-            <?php
-                                }
-            ?>
 
-            </tbody>
-            </table>
+
+
+                    </div>
+
+                </div>
             </div>
+            </td>
+            </tr>
         </div>
-        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto est ut possimus. Possimus facilis accusamus in dolorem necessitatibus esse reprehenderit alias quas pariatur veritatis illum adipisci accusantium, expedita aut cupiditate.</p> -->
+    </div>
+
+<?php
+                                }
+?>
+
+</tbody>
+</table>
+</div>
+</div>
+<!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto est ut possimus. Possimus facilis accusamus in dolorem necessitatibus esse reprehenderit alias quas pariatur veritatis illum adipisci accusantium, expedita aut cupiditate.</p> -->
 </body>
 
 </html>

@@ -13,6 +13,7 @@ class lemModel extends Model
 
     public function saveLem($data)
     {
+
         $query = $this->db->table('lem')->insert($data);
         return $query;
     }

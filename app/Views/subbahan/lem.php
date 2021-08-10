@@ -52,8 +52,8 @@
                                             <div class="row-g2">
                                                 <!-- <a href="/supplier/deleteKertas"> <i class="fas fa-edit"></a> -->
                                                 <a href="<?php echo base_url('inputbutton/deletelem/' . $l['id_lem']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus produk <?php echo $l['id_lem']; ?>ini?')"><i class="fas fa-trash-alt"></i></a>
-                                                <!-- <div class="col"> -->
-                                                <!-- <a href="/supplier/deletepls" class="btn btn-danger btn-sm"><i class="fas fa-edit"></i></a> -->
+                                                <a href="<?php echo base_url('inputbutton/cetak/' . $l['id_lem']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus produk <?php echo $l['id_lem']; ?>ini?')"><i class="fas fa-trash-alt"></i></a>
+
                                             </div>
                                     </td>
 

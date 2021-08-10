@@ -11,8 +11,15 @@ class kertasModel extends Model
     protected $useTimestamps = true;
     protected $allowedFields = ['tanggal_pemesanan', 'Nama_krts', 'Jenis_ivo', 'Jumlah_rim', 'ukuran', 'harga_sebelum', 'harga_sesudah', 'gramature'];
 
+    public function tampil($table)
+    {
+        $query =  $this->db->table($table);
+        return $query->get();
+    }
+
     public function saveData($data)
     {
+
         $query = $this->db->table('kertas')->insert($data);
         return $query;
     }
@@ -34,6 +41,7 @@ class kertasModel extends Model
         $query = $builder->get();
         $builder->selectMax('id_kertas');
         $query = $builder->get();
-        return $query;
+
+        return $query->id_kertas;
     }
 }

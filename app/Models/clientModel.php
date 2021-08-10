@@ -4,7 +4,7 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class clientModel extends Model
+class ClientModel extends Model
 {
     protected $table = 'client';
     protected $primaryKey = 'no_id';
@@ -20,6 +20,17 @@ class clientModel extends Model
     public function deletecli($id)
     {
         $query = $this->db->table($this->table)->delete(['no_id' => $id]);
+        return $query;
+    }
+
+    public function autocodeclient()
+    {
+        $db      = \Config\Database::connect();
+        $builder = $db->table('client');
+        $query = $builder->get();
+        $builder->selectMax('no_id');
+        $query = $builder->get();
+
         return $query;
     }
 }

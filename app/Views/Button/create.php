@@ -8,13 +8,13 @@
 <body>
 
 
-    <form action="/Supplier/save" method="POST">
+    <form action="/supplier/save" method="POST">
 
         <div class="form-group text-dark">
             <div class="row g-3">
                 <div class="col-2">
                     <label for="id_kertas">1.id_kertas</label>
-                    <input type="text" class="form-control" id="id_kertas" name="id_kertas" placeholder="id_kertas">
+                    <input type="text" class="form-control" id="id_kertas" name="id_kertas" placeholder="id_kertas" required="required">
                 </div>
 
                 <div class="col-3">

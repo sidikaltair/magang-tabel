@@ -35,6 +35,7 @@ $routes->get('/', 'Home::Dashboard');
 $routes->get('/Supplier', 'Home::Supplier');
 $routes->get('/Client', 'Home::Client');
 $routes->get('/Tinta',  'Home::Tinta');
+$routes->get('/Produk',  'Home::Produk');
 $routes->get('/Plastik', 'Home::Plastik');
 $routes->get('/Lem', 'Home::Lem');
 $routes->get('/Kertas', 'Home::Kertas');

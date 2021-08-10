@@ -7,6 +7,7 @@ use App\Models\kertasModel;
 use App\Models\lemModel;
 use App\Models\plastikModel;
 use App\Models\tintaModel;
+use TCPDF;
 
 class InputButton extends BaseController
 
@@ -17,13 +18,19 @@ class InputButton extends BaseController
         $this->productpls = new plastikModel();
         $this->producttinta = new tintaModel();
         $this->productlem = new lemModel();
-        $this->productcli = new clientModel();
+        $this->productcli = new ClientModel();
+        $this->TCDF = new TCPDF();
+        $this->ClientModel = new ClientModel();
     }
 
     public function createClient()
     {
 
-
+        $this->ClientModel = new ClientModel();
+        $query = $this->ClientModel->autocodeclient();
+        $nourut = (int)substr($query, 3, 4);
+        $kodeBarangSekarang = $nourut + 1;
+        $data = array('no_id' => $kodeBarangSekarang);
         $data = [
             'title' => 'Client',
             'jumbo' => 'Client'
@@ -34,8 +41,7 @@ class InputButton extends BaseController
     {
         $data = [
             'title' => 'input Kertas',
-            'jumbo' => 'Input Kertas Tabel',
-            'create' => 'button/create'
+            'jumbo' => 'Input Kertas Tabel'
 
         ];
 
@@ -73,7 +79,7 @@ class InputButton extends BaseController
             return redirect()->to(base_url('/supplier/tinta'));
         }
     }
-    public function deletecli($id)
+    public function deleteclient($id)
     {
         $hapus = $this->productcli->deletecli($id);
 
@@ -110,9 +116,6 @@ class InputButton extends BaseController
             return redirect()->to(base_url('/supplier/lem'));
         }
     }
-
-
-
     public function edit()
     {
         $model = new kertasModel();
@@ -145,4 +148,26 @@ class InputButton extends BaseController
             return redirect()->to(base_url('/supplier/plastik'));
         }
     }
+
+    // public function invoice()
+    // {
+    //     $id = $this->request->uri->getSegment(3);
+
+    //     $kertas = $this->product->find($id);
+
+
+    //     $tinta = $this->producttinta->find($id);
+
+    //     $plastik = $this->productpls->find($id);
+
+    //     $lem = $this->productlem->find($id);
+    //     $html = ([
+    //         'kertas' => $kertas,
+    //         'tinta' => $tinta,
+    //         'plastik' => $plastik,
+    //         'lem' => $lem,
+    //     ]);
+
+    // return view('subbahan/invoice', $html);
+
 }

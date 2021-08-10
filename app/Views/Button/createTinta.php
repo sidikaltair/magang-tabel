@@ -26,10 +26,15 @@
                     <label for="Nama_Spl">3.Nama_Spl</label>
                     <input type="text" class="form-control" id="Nama_Spl" name="Nama_Spl" placeholder="Mass">
                 </div>
-                <div class="col-2">
-                    <label for="Jenis_tinta">4.Jenis_tinta</label>
-                    <input type="text" class="form-control" id="Jenis_tinta" name="Jenis_tinta" placeholder="Mass">
-                </div>
+                <form class="form-inline">
+                    <label class="Jenis_tinta" for="Jenis_tinta">4.jenis tinta</label>
+                    <select class="custom-select my-1 mr-sm-2" id="Jenis_tinta" name="Jenis_tinta">
+                        <option selected>Pilih</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </form>
 
 
                 <div class="col-3">

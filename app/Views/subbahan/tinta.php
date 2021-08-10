@@ -60,17 +60,10 @@
                                     <td><?= $t['harga_sebelum']; ?></td>
                                     <td><?= $t['harga_sesudah']; ?></td>
                                     <td>
-                                        <div class="div">
-                                            <div class="row-g2"> -->
-                                                <a href="/supplier/tinta"> <i class="fas fa-trash"></a>
-                                                <a href="<?php echo base_url('inputbutton/deletetinta/' . $t['id_tinta']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus produk <?php echo $t['id_tinta']; ?>ini?')"><i class="fas fa-trash-alt"></i></a>
-                                                <!-- <div class="col">
-                                                    <a href="/supplier/editKertas" class="btn btn-danger btn-sm"><i class="fas fa-edit"></i></a> -->
-
-                                            </div>
-
+                                        <div class="col-md-4">
+                                            <a href="<?php echo base_url('inputbutton/deletetinta/' . $t['id_tinta']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus produk <?php echo $t['Jenis_tinta']; ?> ini?')"><i class="fas fa-trash-alt"></i></a>
+                                            <a href="/supplier/editKertas" class="btn btn-danger btn-sm"><i class="fas fa-edit"></i></a>
                                         </div>
-
                                     </td>
 
                                 </tr>

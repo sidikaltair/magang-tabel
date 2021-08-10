@@ -4,6 +4,7 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12 mt-4">
+            <a class="btn btn-outline-info" href='/inputbutton/createClient'>input data</a>
             <table id="table" class="table table-striped table-bordered ">
                 <thead>
                     <tr>

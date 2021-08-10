@@ -2,12 +2,20 @@
 
 namespace App\Controllers;
 
-use App\Models\clientModel;
+use App\Models\ClientModel;
+use CodeIgniter\I18n\Time;
+
+
 
 class Home extends BaseController
 {
+	public function __construct()
+	{
+		$this->ClientModel = new ClientModel();
+	}
 	public function Dashboard()
 	{
+
 		$data = [
 			'title' => 'HOME | dashboard',
 			'jumbo' => 'Dashboard'
@@ -27,12 +35,11 @@ class Home extends BaseController
 	public function Client()
 
 	{
-		$this->clientModel = new clientModel();
-		$client = $this->clientModel->findAll();
+		$client = $this->ClientModel->findAll();
 		$data = [
 			'title' => 'Client',
 			'jumbo' => 'Client',
-			'client' => $client
+			'client' => $client,
 
 		];
 		return view('layout/client', $data);
@@ -53,7 +60,7 @@ class Home extends BaseController
 		]);
 
 		session()->setFlashdata('saveClient', 'Data berhasil ditambahkan.');
-		$model->saveData($data);
+		$this->$model->saveClient($data);
 		return redirect()->to('/Home/client');
 	}
 
