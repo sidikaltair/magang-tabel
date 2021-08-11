@@ -1,5 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -9,12 +8,27 @@
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <title>Document</title>
 </head>
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 2px solid black;
+        text-align: center;
+        background-color: sandybrown;
+    }
+</style>
 
 <body>
-    <table id="table" class="table table-striped table-bordered" cellpadding="6" colspan="5">
+
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, iure tempora est repudiandae earum ex quia rem ad quibusdam exercitationem iusto maxime. Et autem excepturi commodi sed facere eos voluptatem.</P>
+    <hr>
+    <hr>
+    <table class="table table-striped table-bordered" cellpadding="6" colspan="5">
         <thead class="thead-dark">
-            <br />
-            <br />
             <tr>
                 <th scope="col">No</th>
                 <th scope="col">id_kertas</th>
@@ -26,15 +40,13 @@
                 <th scope="col">HARGA SEBELUM</th>
                 <th scope="col">Harga sesudah ppn</th>
                 <th scope="col">gramature</th>
-                <th scope="col">Action</th>
-                <BR><BR>
             </tr>
         </thead>
-        <tbody>
 
+        <tbody>
             <?php
             $i = 1;
-            foreach ($kertas as $t) {
+            foreach ($tampil as $t) {
             ?>
 
                 <tr>
@@ -48,20 +60,16 @@
                     <td><?= $t->harga_sebelum; ?></td>
                     <td><?= $t->harga_sesudah; ?></td>
                     <td><?= $t->gramature; ?></td>
-
                 </tr>
-                </div>
-                </div>
-
             <?php
             }
             ?>
 
-        </tbody>
-    </table>
-    </div>
-    </div>
 
+        </tbody>
+
+
+    </table>
 </body>
 
 </html>

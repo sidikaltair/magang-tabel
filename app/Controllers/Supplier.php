@@ -43,15 +43,15 @@ class Supplier extends BaseController
 
         $model = new kertasModel();
         $data = ([
-            'id_kertas' => $this->request->getPost('id_kertas'),
-            'tanggal_pemesanan' => $this->request->getPost('tanggal_pemesanan'),
-            'Nama_krts' => $this->request->getPost('Nama_krts'),
-            'Jenis_ivo' => $this->request->getPost('Jenis_ivo'),
-            'jumlah_rim' => $this->request->getPost('jumlah_rim'),
-            'ukuran' => $this->request->getPost('ukuran'),
-            'harga_sebelum' => $this->request->getPost('harga_sebelum'),
-            'harga_sesudah' => $this->request->getPost('harga_sesudah'),
-            'gramature' => $this->request->getPost('gramature'),
+            'id_kertas' => $this->request->getVar('id_kertas'),
+            'tanggal_pemesanan' => $this->request->getVar('tanggal_pemesanan'),
+            'Nama_krts' => $this->request->getVar('Nama_krts'),
+            'Jenis_ivo' => $this->request->getVar('Jenis_ivo'),
+            'jumlah_rim' => $this->request->getVar('jumlah_rim'),
+            'ukuran' => $this->request->getVar('ukuran'),
+            'harga_sebelum' => $this->request->getVar('harga_sebelum'),
+            'harga_sesudah' => $this->request->getVar('harga_sesudah'),
+            'gramature' => $this->request->getVar('gramature'),
 
         ]);
 
@@ -62,12 +62,16 @@ class Supplier extends BaseController
     public function pdf()
     {
         $model = new kertasModel;
-        $data['kertas'] = $model->tampil('kertas')->getResult();
-        $html = view('/button/inv/inv_kertas', $data);
-        $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
+        // $kertas = $this->kertasModel->findAll();
+        $kertas['tampil'] = $model->tampil('kertas')->getResultObject();
+        $html = view('/button/inv/inv_kertas', $kertas);
+        $pdf = new TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, 'LETTER', true, 'UTF-8', false);
+        $pdf->SetMargins(PDF_MARGIN_LEFT, 0, PDF_MARGIN_RIGHT, true);
+
+        $pdf->SetFont('helvetica', '', 10, '', true);
         $pdf->setCreator(PDF_CREATOR);
         $pdf->SetAuthor('Inventory');
-        $pdf->SetTitle('<?= $title; ?>');
+        $pdf->SetTitle('pdf');
         $pdf->SetSubject('Inventory');
         $pdf->setPrintFooter(false);
         $pdf->setPrintHeader(false);
@@ -75,7 +79,7 @@ class Supplier extends BaseController
         $pdf->SetAutoPageBreak(true, PDF_MARGIN_BOTTOM);
         $pdf->writeHTML($html, true, false, true, false, '');
         $this->response->setContentType('application/pdf');
-        $pdf->Output('inventory', 'I');
+        $pdf->Output();
     }
 
     public function Plastik()

@@ -73,8 +73,8 @@
 
                                                 <a href=" <?php echo base_url('supplier/pdf/' . $k['id_kertas']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah anda ingin cetak pdf <?php echo $k['Nama_krts']; ?>ini?')"><i class="fas fa-trash-alt"></i></a>
                                             </div>
-
-
+                                        </td>
+                                    </tr>
 
                     </div>
 
