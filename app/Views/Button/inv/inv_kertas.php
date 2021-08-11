@@ -14,6 +14,12 @@
         width: 100%;
     }
 
+    h1 {
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+    }
+
     td,
     th {
         border: 2px solid black;
@@ -23,10 +29,21 @@
 </style>
 
 <body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Invoice KERTAS NUSITA </h1>
+            </div>
+        </div>
+        <h3>Invoice kertas</h3>
+        <p class="alamat">Kepada YTH jalan....
+            jalan ciumbuleuit no 33 </p>
+        <hr>
+    </div>
 
     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, iure tempora est repudiandae earum ex quia rem ad quibusdam exercitationem iusto maxime. Et autem excepturi commodi sed facere eos voluptatem.</P>
-    <hr>
-    <hr>
+    <br>
+    <br>
     <table class="table table-striped table-bordered" cellpadding="6" colspan="5">
         <thead class="thead-dark">
             <tr>
@@ -39,12 +56,20 @@
                 <th scope="col">ukuran</th>
                 <th scope="col">HARGA SEBELUM</th>
                 <th scope="col">Harga sesudah ppn</th>
-                <th scope="col">gramature</th>
+                <th scope="col">nama_supplier</th>
             </tr>
         </thead>
 
         <tbody>
             <?php
+
+            // $query = $this->kertasModel->tampil();
+            // if (@$_GET['id_kertas'] != '') {
+            //     $query->tampil(@$_GET['id_kertas']);
+            // } else {
+            //     $query->tampil();
+            // }
+
             $i = 1;
             foreach ($tampil as $t) {
             ?>
@@ -59,7 +84,7 @@
                     <td><?= $t->ukuran; ?></td>
                     <td><?= $t->harga_sebelum; ?></td>
                     <td><?= $t->harga_sesudah; ?></td>
-                    <td><?= $t->gramature; ?></td>
+                    <td><?= $t->nama_supplier; ?></td>
                 </tr>
             <?php
             }

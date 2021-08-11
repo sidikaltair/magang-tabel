@@ -51,7 +51,7 @@ class Supplier extends BaseController
             'ukuran' => $this->request->getVar('ukuran'),
             'harga_sebelum' => $this->request->getVar('harga_sebelum'),
             'harga_sesudah' => $this->request->getVar('harga_sesudah'),
-            'gramature' => $this->request->getVar('gramature'),
+            'nama_supplier' => $this->request->getVar('nama_supplier'),
 
         ]);
 
@@ -59,7 +59,7 @@ class Supplier extends BaseController
         $model->saveData($data);
         return redirect()->to('/Supplier/kertas');
     }
-    public function pdf()
+    public function pdf($id)
     {
         $model = new kertasModel;
         // $kertas = $this->kertasModel->findAll();

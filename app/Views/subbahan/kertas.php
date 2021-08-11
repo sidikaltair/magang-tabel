@@ -9,8 +9,13 @@
             <div class="col-lg-6">
                 <i class="fas fa-plus-square"></i>
                 <a class="btn btn-outline-info" href='/inputbutton/create'>input data</a>
-
             </div>
+
+            <div class="col-md-1 ml-md-auto">
+                <a class="btn btn-outline-secondary" href='/inputbutton/invKertasAll'>Cetak</a>
+            </div>
+
+
             <div class="row-lg-12 mt-2">
                 <?php if (session()->getFlashdata('pesan')) : ?>
                     <div class="alert alert-success" role="alert">
@@ -43,7 +48,7 @@
                                     <th scope="col">ukuran</th>
                                     <th scope="col">HARGA SEBELUM</th>
                                     <th scope="col">Harga sesudah ppn</th>
-                                    <th scope="col">gramature</th>
+                                    <th scope="col">nama_supplier</th>
                                     <th scope="col">Action</th>
 
                                 </tr>
@@ -52,6 +57,7 @@
 
                                 <?php
                                 $i = 1;
+
                                 foreach ($kertas as $k) {
                                 ?>
 
@@ -65,13 +71,13 @@
                                         <td><?= $k['ukuran']; ?></td>
                                         <td><?= $k['harga_sebelum']; ?></td>
                                         <td><?= $k['harga_sesudah']; ?></td>
-                                        <td><?= $k['gramature']; ?></td>
+                                        <td><?= $k['nama_supplier']; ?></td>
                                         <td>
-                                            <div class="row-g2">
+                                            <div class="col">
 
                                                 <a href=" <?php echo base_url('inputbutton/deletekrts/' . $k['id_kertas']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah Anda yakin ingin menghapus produk <?php echo $k['Nama_krts']; ?>ini?')"><i class="fas fa-trash-alt"></i></a>
 
-                                                <a href=" <?php echo base_url('supplier/pdf/' . $k['id_kertas']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah anda ingin cetak pdf <?php echo $k['Nama_krts']; ?>ini?')"><i class="fas fa-trash-alt"></i></a>
+                                                <a href=" <?php echo base_url('supplier/pdf/' . $k['id_kertas']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Apakah anda ingin cetak pdf <?php echo $k['Nama_krts']; ?>ini?')"><i class="fas fa-print"></i></a>
                                             </div>
                                         </td>
                                     </tr>

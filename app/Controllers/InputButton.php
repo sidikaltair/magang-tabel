@@ -25,10 +25,9 @@ class InputButton extends BaseController
 
     public function createClient()
     {
-
-        $this->ClientModel = new ClientModel();
         $query = $this->ClientModel->autocodeclient();
-        $nourut = (int)substr($query, 3, 4);
+        $nourut = substr($query, 3, 4);
+        echo substr($nourut['id_kertas'], 4);
         $kodeBarangSekarang = $nourut + 1;
         $data = array('no_id' => $kodeBarangSekarang);
         $data = [

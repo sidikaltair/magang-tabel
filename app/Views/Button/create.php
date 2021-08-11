@@ -47,11 +47,14 @@
                     <label for="harga_sebelum">8.harga_sebelum</label>
                     <input type="text" class="form-control" id="harga_sebelum" name="harga_sebelum" placeholder="Masrtas">
                 </div>
-
+                X
                 <div class="col-2">
+
                     <label for="harga_sesudah">9.harga_sesudah</label>
                     <input type="text" class="form-control" id="harga_sesudah" name="harga_sesudah" placeholder="Masrtas">
                 </div>
+
+
                 <div class="col-2">
                     <label for="gramature">10.gramature</label>
                     <input type="text" class="form-control" id="gramature" name="gramature" placeholder="Masrtas">
