@@ -33,6 +33,7 @@ class kertasModel extends Model
     public function tampilcol($id)
     {
         $query = $this->db->table($this->table)->select(['id_kertas' => $id]);
+        return $query;
     }
 
     public function delete_product($id)
@@ -40,14 +41,12 @@ class kertasModel extends Model
         $query = $this->db->table($this->table)->delete(['id_kertas' => $id]);
         return $query;
     }
-    public function autocodekertas()
+    public function autoCode()
     {
         $db      = \Config\Database::connect();
         $builder = $db->table('kertas');
-        $query = $builder->get();
         $builder->selectMax('id_kertas');
-        $query = $builder->get();
-
-        return $query->id_kertas;
+        $query = $builder->get()->getRow();
+        return $query;
     }
 }

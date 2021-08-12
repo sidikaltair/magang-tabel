@@ -41,6 +41,7 @@ $routes->get('/Lem', 'Home::Lem');
 $routes->get('/Kertas', 'Home::Kertas');
 $routes->get('/Login', 'Home::Dashboard');
 $routes->add('/save(:segment)', 'Supplier:/$1');
+// $routes->get('/create(:segment)', 'Supplier:/$1');
 // $routes->get('/Supplier')
 
 /*

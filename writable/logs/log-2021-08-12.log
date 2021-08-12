@@ -1,0 +1,835 @@
+ERROR - 2021-08-12 10:02:02 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-08-12 10:02:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\magang-tabel\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\magang-tabel\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(28): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->Kertas()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 10:57:23 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 10:59:16 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:00:32 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:00:48 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:03 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:41 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:44 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:44 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:45 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:45 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:45 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:45 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:45 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:46 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:03:52 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(42): App\Models\kertasModel->autocode()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 11:04:22 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:06:59 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:07:01 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:07:01 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:07:01 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:07:05 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:12:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::autocode()
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:12:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::autocode()
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:12:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::autocode()
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:12:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::autocode()
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:12:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::autocode()
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:12:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::autocode()
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:12:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::autocode()
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:13:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::autocode()
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 11:27:24 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(42): App\Models\kertasModel->autocode()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 11:29:35 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(42): App\Models\kertasModel->autocode()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 11:37:47 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(42): App\Models\kertasModel->autocode()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 11:38:06 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(42): App\Models\kertasModel->autocode()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 11:54:11 --> Undefined array key ""
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(48): App\Models\kertasModel->autoCode()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 12:01:09 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(56): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 12:06:44 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(55): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 12:06:46 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(55): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 12:07:12 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(55): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 12:07:15 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(55): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 13:33:47 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(47): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:35:12 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(47): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:35:41 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(47): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:36:32 --> CodeIgniter\Database\BaseResult::getRowArray(): Argument #1 ($n) must be of type int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseResult->getRowArray('id')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(46): App\Models\kertasModel->autoCode()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 13:39:08 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 13:39:09 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 13:39:22 --> Too few arguments to function App\Controllers\InputButton::create(), 0 passed in C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php on line 928 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 01:39:31 --> syntax error, unexpected token "{", expecting variable
+#0 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('inputbutton/cre...')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('inputbutton/cre...')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:39:36 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(47): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:41:20 --> Call to a member function getResultObject() on array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 13:41:28 --> Call to a member function getResultArray() on array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 13:41:32 --> Call to a member function getResult() on array
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 13:42:16 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:43:48 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:47:39 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:47:39 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:47:40 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 01:52:04 --> Unclosed '{' on line 51
+#0 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('inputbutton/cre...')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('inputbutton/cre...')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 01:52:57 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('inputbutton/cre...')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('inputbutton/cre...')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 01:52:57 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('inputbutton/cre...')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('inputbutton/cre...')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 13:57:37 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(66): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 13:58:25 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(66): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 13:58:26 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(66): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 13:58:26 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(66): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-08-12 14:02:29 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:06:15 --> Undefined variable $newkode
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:06:43 --> Undefined variable $newkode
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:28:06 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:28:17 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:28:21 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:28:41 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:28:51 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:29:26 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:30:17 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:34:51 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:36:03 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:37:32 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:37:38 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:38:20 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:38:30 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:38:46 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:39:04 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:39:28 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:43:45 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): App\Models\kertasModel->autoCode('kertas', 'id_kertas')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:44:00 --> Too few arguments to function App\Models\kertasModel::autoCode(), 0 passed in C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php on line 48 and exactly 1 expected
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(48): App\Models\kertasModel->autoCode()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:44:15 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php on line 49
+#0 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(49): CodeIgniter\Database\BaseBuilder->get('kertas')
+#1 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(48): App\Models\kertasModel->autoCode()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#4 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-08-12 14:46:41 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 02:46:50 --> syntax error, unexpected variable "$lastkode", expecting ")"
+#0 C:\xampp\htdocs\magang-tabel\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('inputbutton/cre...')
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(809): CodeIgniter\Router\Router->handle('inputbutton/cre...')
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:47:17 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:47:17 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:49:00 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:49:41 --> substr(): Argument #1 ($string) must be of type string, stdClass given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(49): substr(Object(stdClass), -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-08-12 14:53:36 --> Call to undefined method stdClass::get()
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 15:07:29 --> Array to string conversion
+#0 C:\xampp\htdocs\magang-tabel\app\Views\Button\create.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\magang-tabel\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\magang-tabel\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\magang-tabel\system\Common.php(1271): CodeIgniter\View\View->render('button/create', Array, true)
+#4 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(60): view('button/create', Array)
+#5 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-08-12 15:08:02 --> Column 'nama_supplier' cannot be null
+CRITICAL - 2021-08-12 15:08:02 --> Column 'nama_supplier' cannot be null
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(59): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2021-08-12 15:09:19 --> Duplicate entry 'B0001' for key 'PRIMARY'
+CRITICAL - 2021-08-12 15:09:19 --> Duplicate entry 'B0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(59): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-08-12 15:14:24 --> Unsupported operand types: string + int
+#0 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-08-12 15:14:43 --> substr(): Argument #1 ($string) must be of type string, array given
+#0 C:\xampp\htdocs\magang-tabel\app\Controllers\InputButton.php(47): substr(Array, -4, 4)
+#1 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\InputButton->create()
+#2 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InputButton))
+#3 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-08-12 15:15:29 --> Duplicate entry 'B0001' for key 'PRIMARY'
+CRITICAL - 2021-08-12 15:15:29 --> Duplicate entry 'B0001' for key 'PRIMARY'
+#0 C:\xampp\htdocs\magang-tabel\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ke...')
+#1 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 C:\xampp\htdocs\magang-tabel\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 C:\xampp\htdocs\magang-tabel\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 C:\xampp\htdocs\magang-tabel\app\Models\kertasModel.php(25): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\magang-tabel\app\Controllers\Supplier.php(59): App\Models\kertasModel->saveData(Array)
+#6 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(928): App\Controllers\Supplier->save()
+#7 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#8 C:\xampp\htdocs\magang-tabel\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\magang-tabel\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\magang-tabel\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

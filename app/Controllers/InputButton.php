@@ -25,11 +25,15 @@ class InputButton extends BaseController
 
     public function createClient()
     {
-        $query = $this->ClientModel->autocodeclient();
-        $nourut = substr($query, 3, 4);
-        echo substr($nourut['id_kertas'], 4);
-        $kodeBarangSekarang = $nourut + 1;
-        $data = array('no_id' => $kodeBarangSekarang);
+        // $query = $this->ClientModel->autocodeclient();
+        // $nourut = substr($query, 3, 4);
+        // echo substr($nourut['id_kertas'], 4);
+        // $kodeBarangSekarang = $nourut + 1;
+        // $data = array('no_id' => $kodeBarangSekarang);
+
+
+
+
         $data = [
             'title' => 'Client',
             'jumbo' => 'Client'
@@ -37,10 +41,21 @@ class InputButton extends BaseController
         return view('button/createclient', $data);
     }
     public function create()
+
     {
+        $lastkode['autocode'] = $this->product->autoCode();
+        $coba = (int)substr('autocode', -3, 3);
+        // for ($coba = 1; $coba < 999; $coba++)
+        $coba++;
+        $str = "B";
+        $kode = $str . sprintf('%04s', $coba);
+        dd($kode);
+
         $data = [
             'title' => 'input Kertas',
-            'jumbo' => 'Input Kertas Tabel'
+            'jumbo' => 'Input Kertas Tabel',
+            'kode'  => $kode,
+            // 'newkode' => $newkode,
 
         ];
 
